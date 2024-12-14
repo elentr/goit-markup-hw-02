@@ -39,18 +39,27 @@ h3 {
 }
 
 /*   HEADER   STYLES   */
+.header {
+    background-color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    color: #404bbf;
+}
+
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.167;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
 }
 
 .logo-accent {
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 
 .menu-item {
@@ -59,6 +68,10 @@ h3 {
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
+}
+
+.contacts-ws{
+    font-style: normal;
 }
 
 .contact {
@@ -73,7 +86,7 @@ h3 {
 .menu-item:focus,
 .contact:hover,
 .contact:focus {
-    color: #4d5ae5;
+    color: #404bbf;
 }
 
 /*   WELCOME   PAGE   */
@@ -85,13 +98,16 @@ h3 {
 .main-page-btn {
     color: #fff;
     background-color: #4d5ae5;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    /*box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);*/
     border: none;
-    border-radius: 4px;
+    /*border-radius: 4px;
     padding: 16px 32px;
     width: 169px;
-    height: 56px;
+    height: 56px;*/
     cursor: pointer;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em
 }
 
 .main-page-btn:hover, .main-page-btn:focus {
@@ -104,16 +120,20 @@ h3 {
 }
 .feature-dscr {
     color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em
 }
 
 /*   TEAM   */
 .team-section {
     background-color: #f4f4fd;
     text-align: center;
+    line-height: 1.11;
+    letter-spacing: 0.02em
 }
 .card {
     background-color: #fff;
-    width: 264px;
+    /*width: 264px;*/
 }
 .card-img {
     margin: 0 auto;
@@ -125,13 +145,22 @@ h3 {
     text-align: center;
 }
 /*   PORTFOLIO   */
+.portfolio-title {
+    line-height: 1.11;
+    text-transform: capitalize;
+}
+
 .portfolio-card-cont {
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
-    width: 360px;
+    /*width: 360px;*/
 }
 
+.portfolio-dscr {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 
 /*   FOOTER   */
 .end-section {
@@ -142,7 +171,7 @@ h3 {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.167;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
@@ -150,5 +179,7 @@ h3 {
 
 .footer-text {
     color: #f4f4fd;
-    width: 400px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    /*width: 400px;*/
 }
